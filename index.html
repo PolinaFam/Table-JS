@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<body>
+		<link href="styles.css" rel="stylesheet">
+	
+		<div id="editForm">
+		<form id="Form">
+			<input type="hidden" id="nRow">
+			<label for="firstNameField">Имя</label><br>
+			<input type="text" name="firstName" id="firstNameField" size="30">
+			<br>
+			<label for="lastNameField">Фамилия</label><br>
+			<input type="text" name="lastName" id="lastNameField" size="30">
+			<br>
+			<label for="aboutField">Описание</label><br>
+			<textarea wrap="hard" name="about" id="aboutField" cols="50" rows="10"></textarea>
+			<br>
+			<label>Цвет глаз</label><br>
+			<p><input type="radio" name="eyeColor" value="blue">Blue</p>
+			<p><input type="radio" name="eyeColor" value="brown">Brown</p>
+			<p><input type="radio" name="eyeColor" value="green">Green</p>
+			<p><input type="radio" name="eyeColor" value="red">Red</p>
+			<input type="submit" value="Сохранить">
+		</form>
+		</div>	
+		<script type="text/javascript" src="data.json"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
